@@ -31,10 +31,10 @@
             
             <!-- Liens -->
             <div class="flex space-x-4">
-              <a :href="project.liveLink" _blank class="text-green-400 hover:text-green-300 text-sm font-medium">
+              <a :href="project.liveLink" target = "_blank" class="text-green-400 hover:text-green-300 text-sm font-medium">
                 Voir le projet →
               </a>
-              <a :href="project.githubLink" _blank class="text-gray-400 hover:text-gray-300 text-sm font-medium">
+              <a :href="project.githubLink" target = "_blank" class="text-gray-400 hover:text-gray-300 text-sm font-medium">
                 Code source
               </a>
             </div>
